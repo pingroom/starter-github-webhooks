@@ -1,0 +1,16 @@
+{
+  "name": "pingroom-starter-github-webhooks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Send signed GitHub issue and release events to a PingRoom room.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/start.js",
+    "connect": "node src/connect.js",
+    "demo": "node src/demo.js",
+    "test": "node --test"
+  },
+  "dependencies": { "@pingroom/sdk": "0.7.0" },
+  "license": "MIT"
+}
