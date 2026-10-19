@@ -2,7 +2,7 @@
 
 Send a linked PingRoom notification when an issue opens or a release publishes in a repository you choose. This Node.js starter verifies GitHub signatures, filters events, and records successful deliveries across restarts for up to 24 hours.
 
-Uses the official [`@pingroom/sdk`](https://github.com/pingroom/sdk), pinned to `0.7.0`. Requires Node.js 22 or newer.
+Uses the official [`@pingroom/sdk`](https://github.com/pingroom/sdk), pinned to `0.7.1`. Requires Node.js 22 or newer.
 
 ## Try it offline
 
